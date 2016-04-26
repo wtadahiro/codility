@@ -17,8 +17,8 @@ function solution($n){
         }
     }
 
-    echo $binary . PHP_EOL;
-    echo $maxLength . PHP_EOL;
+    return $maxLength;
 }
 
-solution($argv[1]);
+echo solution($argv[1]);
+echo PHP_EOL;
