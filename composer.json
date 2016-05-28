@@ -1,0 +1,22 @@
+{
+    "name": "wtadahiro/codility",
+    "description": "Just for my lessons",
+    "authors": [
+        {
+            "name": "tadahiro.wada",
+            "email": "tadahiro.wada@d8aspring.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wtadahiro\\Codility\\": "src/",
+            "Wtadahiro\\Codility\\tests\\": "tests"
+        }
+    }
+}
